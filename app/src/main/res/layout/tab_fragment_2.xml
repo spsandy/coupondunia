@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/loction"
+        android:drawablePadding="10dp"
+        android:text="Location"
+        android:gravity="center|left"
+        android:textSize="21dp"
+        android:drawableLeft="@drawable/ic_map_marker_radius_grey600_24dp"
+        android:layout_height="50dp" />
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/loction"
+        android:id="@+id/listView"
+        android:background="#cccccc"
+      />
+</RelativeLayout>
